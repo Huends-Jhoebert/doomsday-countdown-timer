@@ -1,3 +1,7 @@
+:root {
+   --text-color: #fff;
+}
+
 * {
    margin: 0;
    padding: 0;
@@ -7,4 +11,16 @@
 .__container {
    height: 100vh;
    background-image: linear-gradient(#40889a, #4f5081);
+}
+
+.row > div {
+   border: 1px solid black;
+}
+
+.row {
+   height: 100vh;
+}
+
+.col p {
+   color: var(--text-color);
 }
