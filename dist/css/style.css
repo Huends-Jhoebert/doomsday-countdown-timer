@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+
 :root {
    --text-color: #fff;
 }
@@ -13,9 +15,9 @@
    background-image: linear-gradient(#40889a, #4f5081);
 }
 
-.row > div {
+/* .row > div {
    border: 1px solid black;
-}
+} */
 
 .row {
    height: 100vh;
@@ -30,6 +32,8 @@
 }
 
 .text {
+   font-size: 2rem;
    text-align: center;
    color: var(--text-color);
+   font-family: "Raleway", sans-serif;
 }
