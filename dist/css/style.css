@@ -1,4 +1,10 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.__container {
+   height: 100vh;
+   background-image: linear-gradient(#40889a, #4f5081);
+}
