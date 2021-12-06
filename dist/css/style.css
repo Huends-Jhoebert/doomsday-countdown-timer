@@ -21,6 +21,15 @@
    height: 100vh;
 }
 
-.col p {
+.row div {
+   border-radius: 5px;
+}
+
+.__column {
+   background-color: #376585;
+}
+
+.text {
+   text-align: center;
    color: var(--text-color);
 }
